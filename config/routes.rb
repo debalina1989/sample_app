@@ -12,4 +12,5 @@ SampleApp::Application.routes.draw do
   get "static_pages/contact"
   get "users/new"
 
+  resources :users
 end
