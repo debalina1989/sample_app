@@ -1,4 +1,10 @@
 GIT
+  remote: git://github.com/bmabey/database_cleaner.git
+  revision: 5dc784af6661fd9067953458fbac1b2e0334f0db
+  specs:
+    database_cleaner (1.0.1)
+
+GIT
   remote: git://github.com/sporkrb/spork-rails.git
   revision: 3224f84d8c31fcb0894e9a43f6c3ac67e3aa0d71
   specs:
@@ -204,6 +210,7 @@ DEPENDENCIES
   capybara (= 2.1.0)
   childprocess
   coffee-rails (= 4.0.0)
+  database_cleaner!
   factory_girl_rails (= 4.2.1)
   guard-rspec (= 2.5.0)
   guard-spork (= 1.5.0)
